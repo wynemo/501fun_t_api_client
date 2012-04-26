@@ -11,5 +11,5 @@ urls = ('/','501fun_t_api.twitterapi.ttcbk.index',
 app = web.application(urls, globals())
 application = app.wsgifunc()
 if __name__=="__main__":
-    app.run()
+    #app.run()
     pass
