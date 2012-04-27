@@ -16,8 +16,8 @@ render = web.template.render(get_home_dir() + 'templates/', cache=False)
 
 web.config.debug = False
 
-consumer_key = "g1a3MGT0CZbmNBw6w09WvQ"
-consumer_secret = "0AemV5klcITUZMilF82W6WmqLY1Yf2ozxlYD42R4"
+consumer_key = ""
+consumer_secret = ""
 
 #for j.mp link
 no_jmp = False
