@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
-import web, os
+import web
+import os
 
 def get_home_dir():
     try:
         dir1 = os.environ['OPENSHIFT_REPO_DIR']
-        if dir1.endswith('/') == False:
+        if not dir1.endswith('/'):
             dir1 += '/'
         dir1 += 'wsgi/'
         return dir1
