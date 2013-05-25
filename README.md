@@ -17,6 +17,8 @@ python version >= 2.6
 
         git clone git://github.com/wynemo/501fun_t_api_client.git
         cd 501fun_t_api_client
+        git submodule init
+        git submodule update
         af login
         af update yourappdname
 
